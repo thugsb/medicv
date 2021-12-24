@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+main {
+	max-width: 800px;
+	margin: 1em auto;
+	padding: 1em;
+	background: rgba(0, 0, 0, .1);
+	border-radius: 1em;
+}
+.date-select {
+	max-width: 400px;
+}
+.form-field {
+	margin: 1em;
+}
+.form-field .text-label {
+	display: inline-block;
+	width: 120px;
+}
+.date-select label {
+	display: inline-block;
+	width: 80px;
+	padding: 2px 10px;
+	border-radius: 5px;
+	margin: 5px;
+	background: rgba(0,0,0,.1);
+}
+.date-select.date-days label {
+	width:  60px;
+}
+.date-select label input[type=radio] {
+	margin: 3px;
+}
